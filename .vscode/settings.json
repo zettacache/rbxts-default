@@ -14,7 +14,7 @@
 	"files.exclude": {
 		".vscode": true,
 		"**/.prettierrc": true,
-		"**/.gitignore": false,
+		"**/.gitignore": true,
 		"**/.gitkeep": true,
 		"**/aftman.toml": true,
 		"**/package-lock.json": true,
