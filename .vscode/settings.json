@@ -1,0 +1,28 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"files.eol": "\n",
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"eslint.run": "onType",
+	"eslint.format.enable": true,
+	"files.exclude": {
+		".vscode": true,
+		"**/.prettierrc": true,
+		"**/.gitignore": true,
+		"**/.gitkeep": true,
+		"**/aftman.toml": true,
+		"**/package-lock.json": true,
+		"**/.git": true,
+		"**/node_modules/": true,
+		"**/out/": true,
+		"**/include/": true,
+		"**/src/_.ts": true,
+		"**/flamework.build": true,
+	}
+}

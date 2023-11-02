@@ -1,0 +1,73 @@
+{
+  "name": "cornelia",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "build": "rbxtsc",
+    "lint": "npx xo --fix",
+    "watch": "rbxtsc -w",
+    "test": "xo"
+  },
+  "dependencies": {
+    "@flamework/components": "^1.0.0-beta.24",
+    "@flamework/core": "^1.0.0-beta.24",
+    "@flamework/networking": "^1.0.0-beta.24",
+    "@rbxts/cmdr": "^1.9.0-ts.0",
+    "@rbxts/janitor": "^1.15.4-ts.0",
+    "@rbxts/react-roblox": "^0.2.0",
+    "@rbxts/roact": "npm:@rbxts/react-ts@^1.0.1",
+    "@rbxts/rodux": "^3.0.0-ts.3",
+    "@rbxts/services": "^1.5.1",
+    "@rbxts/ui-labs": "^1.0.2",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "rbxts-transform-debug": "^2.2.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.2.0-types.0",
+    "@rbxts/types": "^1.0.729",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.0.3",
+    "rbxts-transformer-flamework": "^1.0.0-beta.24",
+    "roblox-ts": "^2.2.0",
+    "typescript": "^5.2.2",
+    "xo": "^0.56.0"
+  },
+  "xo": {
+    "rules": {
+      "import/extensions": "off",
+      "new-cap": "off",
+      "no-warning-comments": "off",
+      "no-trailing-spaces": "warn",
+      "eol-last": "warn",
+      "unicorn/filename-case": "warn",
+      "eslint-comments/no-unused-disable": "off",
+      "@typescript-eslint/naming-convention": "off",
+      "@typescript-eslint/indent": "warn",
+      "no-useless-computed-key": "warn",
+      "@typescript-eslint/quotes": "warn",
+      "@typescript-eslint/object-curly-spacing": "warn",
+      "spaced-comment": "warn",
+      "@typescript-eslint/consistent-type-imports": "warn",
+      "@typescript-eslint/ban-types": "off",
+      "object-shorthand": "warn",
+      "arrow-parens": "warn",
+      "capitalized-comments": "warn",
+      "arrow-body-style": "warn"
+    }
+  }
+}

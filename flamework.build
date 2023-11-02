@@ -1,0 +1,9 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.0.0-beta.24",
+	"identifiers": {
+		"cornelia:out/shared/network@GlobalEvents": "shared/network@GlobalEvents",
+		"cornelia:out/shared/network@GlobalFunctions": "shared/network@GlobalFunctions"
+	},
+	"metadata": {}
+}
